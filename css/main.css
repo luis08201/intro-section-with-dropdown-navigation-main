@@ -381,8 +381,11 @@ body.inactive {
         grid-template-areas: "description  image";
     padding: 0 18px;
   }
+  .home-article {
+    padding-bottom: 0;
+  }
   .home-article__description {
-    padding-bottom: 87px;
+    padding-bottom: 110px;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: description;
@@ -422,6 +425,9 @@ body.inactive {
   }
   .home-article__description--firstheading {
     font-size: 52px;
+  }
+  .home-article__sponsors {
+    padding-top: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -264,7 +264,6 @@ body {
 
         &__description {
             padding-bottom: 67px;
-
             &--firstheading {
                 font-size: 32px;
                 color: hsl(0, 0%, 8%);
@@ -321,9 +320,9 @@ body {
         grid-template-areas: "description  image";
         padding:0 18px;
         &-article{
-
+            padding-bottom: 0;
             &__description{
-                padding-bottom: 87px;
+                padding-bottom: 110px;
                 grid-area: description;
                 &--firstheading {
                     font-size: 42px;
@@ -362,6 +361,10 @@ body {
                 &--firstheading {
                     font-size: 52px;
                 }
+            }
+
+            &__sponsors{
+                padding-top: 30px;
             }
         }
     }
