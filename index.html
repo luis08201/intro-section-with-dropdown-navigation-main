@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title> 
+</head>
+<body id="bg-black" >
+  <main class="main">
+    <header class="header">
+      <section class="header-top">
+        <figure class="header-top__picture">
+          <a href="#" class="header-top__brand">
+            <img src="img/logo.svg" alt="Snap logo" class="header-top__img">
+          </a>
+        </figure>
+        <div class="header-top__btn" id="menuBTN">
+          <img src="img/icon-menu.svg" alt="" class="header-top__btn-bar">
+        </div>
+        <nav class="header-nav" id="nav">
+          <div class="header-nav__btn" id="menuBTNav">
+            <img src="img/icon-close-menu.svg" alt="" class="header-nav__btn-bar">
+          </div>
+          <div class="header-nav__main">
+            <ul class="header-nav__menu">
+              <li class="header-nav__list">
+                <a href="#" class="header-nav__link"  id="dropdownOne">features <span class="fa-solid fa-angle-down" id="caretdown"></span></a>
+                <ul class="header-nav__dropdownOne" id="submenuOne">
+                  <li class="header-nav__dlist" id="dropdownOne">
+                    <a href="#" class="header-nav__dlink">
+                      <img src="img/icon-todo.svg" alt="todo list" class="header-nav__dico">
+                      <span class="header-nav__dtxt">todo list</span>
+                    </a>
+                  </li>
+                  <li class="header-nav__dlist">
+                    <a href="#" class="header-nav__dlink">
+                      <img src="img/icon-calendar.svg" alt="calendar" class="header-nav__dico">
+                      <span class="header-nav__dtxt">calendar</span>
+                    </a>
+                  </li>
+                  <li class="header-nav__dlist">
+                    <a href="#" class="header-nav__dlink">
+                      <img src="img/icon-reminders.svg" alt="reminders" class="header-nav__dico">
+                      <span class="header-nav__dtxt">reminders</span>
+                    </a>
+                  </li>
+                  <li class="header-nav__dlist">
+                    <a href="#" class="header-nav__dlink">
+                      <img src="img/icon-planning.svg" alt="planning" class="header-nav__dico">
+                      <span class="header-nav__dtxt">planning</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-nav__list" >
+                <a href="#" class="header-nav__link" id="dropdownTwo">company <span class="fa-solid fa-angle-down" id="caretdownOne"></span></a>
+                <ul class="header-nav__dropdownTwo" id="submenuTwo">
+                  <li class="header-nav__dlist"><a href="#" class="header-nav__dlink">history</a></li>
+                  <li class="header-nav__dlist"><a href="#" class="header-nav__dlink">our team</a></li>
+                  <li class="header-nav__dlist"><a href="#" class="header-nav__dlink">blog</a></li>
+                </ul>
+              </li>
+              <li class="header-nav__list">
+                <a href="#" class="header-nav__link">careers</a>
+              </li>
+              <li class="header-nav__list">
+                <a href="#" class="header-nav__link">about</a>
+              </li>
+            </ul>
+            <div class="header-nav__user">
+              <a href="#" class="header-nav__login">login</a>
+              <a href="#" class="header-nav__register">register</a>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <section class="home">
+      <picture class="home-picture">
+        <source media="(min-width:375px )" srcset="img/image-hero-mobile.png">
+        <source media="(min-width:768px )" srcset="img/image-hero-desktop.png">
+        <img src="img/image-hero-desktop.png" alt="snap banner" class="home-img">
+      </picture>
+      <article class="home-article">
+        <div class="home-article__description">
+          <h1 class="home-article__description--firstheading">
+            Make <br> remote work           
+          </h1>
+          <p class="home-article__description--paragraph">
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+          </p>
+          <div class="home-article__btn">
+            <a href="#" class="home-article__cta">
+              Learn more
+            </a>
+        </div>      
+        </div>
+           <div class="home-article__sponsors">
+            <figure class="home-article__picture">
+              <img src="img/client-databiz.svg" alt="databiz" class="home-article__img">
+            </figure>
+            <figure class="home-article__picture">
+              <img src="img/client-audiophile.svg" alt="audiophile" class="home-article__img">
+            </figure>
+            <figure class="home-article__picture">
+              <img src="img/client-meet.svg" alt="meet" class="home-article__img">
+            </figure>
+            <figure class="home-article__picture">
+              <img src="img/client-maker.svg" alt="maker" class="home-article__img">
+            </figure>
+           </div> 
+      </article>
+    </section>
+  </main>
+
+
+  <!--   
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
