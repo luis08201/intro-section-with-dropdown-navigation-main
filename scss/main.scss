@@ -347,12 +347,17 @@ body {
         &-picture{
             grid-area: image;
         }
+
+        &-img {
+            object-fit:contain;
+            height:600px;
+        }
     }
 
     @media screen and (min-width:992px) {
+        padding:0 100px;
         &-article{
-            padding-right: 140px;
-
+            padding-right:80px;
             &__description{
                 &--firstheading {
                     font-size: 52px;
