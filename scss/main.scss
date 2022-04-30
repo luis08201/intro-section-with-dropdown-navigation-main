@@ -315,7 +315,7 @@ body {
     }
 
     @media screen and (min-width:768px){
-        margin-top: 6   0px;
+        margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-areas: "description  image";
@@ -351,7 +351,13 @@ body {
 
     @media screen and (min-width:992px) {
         &-article{
-            padding-right: 80px;
+            padding-right: 140px;
+
+            &__description{
+                &--firstheading {
+                    font-size: 52px;
+                }
+            }
         }
     }
 }
