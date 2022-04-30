@@ -39,7 +39,7 @@ body.inactive {
 
 @media screen and (min-width: 768px) {
   .main {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
   }
@@ -373,7 +373,7 @@ body.inactive {
 
 @media screen and (min-width: 768px) {
   .home {
-    margin-top: 30px;
+    margin-top: 6   0px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
